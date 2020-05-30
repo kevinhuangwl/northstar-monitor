@@ -54,9 +54,9 @@ d
                 </div>
             </div>
             <div class="btn-bar">
-                <trade-button>多</trade-button>
-                <trade-button>平</trade-button>
-                <trade-button>空</trade-button>
+                <trade-button price="100" type="trade-red-back">多开</trade-button>
+                <trade-button price="100" type="trade-normal-back">平仓</trade-button>
+                <trade-button price="100" type="trade-green-back">空开</trade-button>
             </div>
         </div>
 

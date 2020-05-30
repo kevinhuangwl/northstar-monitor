@@ -1,7 +1,7 @@
 <template>
-    <div class="btn-trade-wrapper ">
-        <div class="trade-red-back btn-trade">
-            <span>{{ 0 }}</span>
+    <div class="btn-trade-wrapper" >
+        <div class="btn-trade" :class="type" >
+            <span>{{ price }}</span>
             <el-divider></el-divider>
             <span><slot></slot></span>
         </div>
@@ -10,7 +10,12 @@
 
 <script>
     export default {
-        name: "trade-button"
+        name: "trade-button",
+        props: ['price', 'type'],
+        data(){
+            return {
+            }
+        }
     }
 </script>
 
@@ -30,7 +35,9 @@
         vertical-align: center;
         padding: 1em;
         border-radius: 0.5em;
-        color: white;
+    }
+    .el-divider{
+        background-color: black;
     }
 
 </style>

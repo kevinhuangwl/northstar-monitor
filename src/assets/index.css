@@ -11,6 +11,7 @@ html, body{
 
 .trade-red-back {
     background-color: rgba(196,68,66,1);
+    color: white;
 }
 
 .trade-red-front{
@@ -19,8 +20,14 @@ html, body{
 
 .trade-green-back{
     background-color: rgba(64,158,95,1);
+    color: white;
 }
 
 .trade-green-front{
     color: rgba(64,158,95,1);
+}
+
+.trade-normal-back {
+    background-color: white;
+    color: black;
 }
