@@ -1,0 +1,26 @@
+.common {
+    background-color: #545c64;
+    height: 100%;
+    color: white;
+}
+html, body{
+    font-size: 50px;
+    margin: 0px;
+    height: 100%;
+}
+
+.trade-red-back {
+    background-color: rgba(196,68,66,1);
+}
+
+.trade-red-front{
+    color: rgba(196,68,66,1);
+}
+
+.trade-green-back{
+    background-color: rgba(64,158,95,1);
+}
+
+.trade-green-front{
+    color: rgba(64,158,95,1);
+}
