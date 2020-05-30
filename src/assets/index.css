@@ -31,3 +31,19 @@ html, body{
     background-color: white;
     color: black;
 }
+
+.message-custom{
+    font-size: 0.8rem;
+}
+
+.el-message /deep/ .el-message__content{
+    font-size: inherit;
+    padding: 0.5rem;
+}
+
+.el-input /deep/ .el-input__icon{
+    width: inherit;
+}
+.el-input .el-input__clear{
+    font-size: 1rem !important;
+}

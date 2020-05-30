@@ -16,7 +16,7 @@
                     </el-form-item>
                 </div>
             </el-form>
-            <el-button type="info" @click="onSubmit">登陆</el-button>
+            <el-button type="info" @click="confirm">登陆</el-button>
         </div>
     </div>
 </template>
@@ -33,9 +33,17 @@
                 }
             }
         },
-        methods: {
-            onSubmit() {
-                console.log('submit!');
+        methods:{
+            confirm(){
+                let pass = this.form.userName == 'admin' && this.form.password == '123456'
+                if(pass){
+                    this.$emit('login')
+                    return
+                }
+                this.$message.error({
+                    message:'用户或密码错误',
+                    customClass: 'message-custom'
+                });
             }
         }
     }
