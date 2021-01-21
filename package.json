@@ -10,7 +10,7 @@
   "dependencies": {
     "core-js": "^3.6.4",
     "element-ui": "^2.13.2",
-    "socket.io": "^2.3.0",
+    "socket.io": "^2.4.0",
     "vue": "^2.6.11"
   },
   "devDependencies": {
